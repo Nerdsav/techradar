@@ -10,12 +10,13 @@
     "examples:clean": "rm -rf examples/",
     "examples:copy": "mkdir examples && cp -r dist/* examples",
     "examples": "npm run build && npm run examples:clean && npm run examples:copy",
-    "publishExamples": "node ./scripts/publish-examples.js"
+    "publishExamples": "node ./scripts/publish-examples.js",
+    "publish": "node ./scripts/publish.js"
   },
   "author": "ThoughtWorks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thoughtworks/build-your-own-radar"
+    "url": "https://github.com/cinhtau/techradar"
   },
   "keywords": [
     "tech-radar"

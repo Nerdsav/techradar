@@ -13,6 +13,7 @@ let isDev = args.dev;
 
 let entry = ['./src/site.js'];
 let devtool;
+let publicPath = '/';
 
 if (isDev) {
     entry.push('webpack-dev-server/client?http://0.0.0.0:8080');
@@ -40,6 +41,7 @@ if (isProd) {
         }),
         new webpack.optimize.OccurenceOrderPlugin()
     );
+    publicPath = '/techradar/';
 }
 
 module.exports = {
@@ -47,7 +49,7 @@ module.exports = {
 
     output: {
         path: buildPath,
-        publicPath: '/',
+        publicPath: publicPath,
         filename: '[name].[hash].js'
     },
 
@@ -73,4 +75,3 @@ module.exports = {
         port: 8080
     }
 };
-
