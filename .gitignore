@@ -85,8 +85,8 @@ jspm_packages
 
 ## File-based project format:
 *.iws
-build-your-own-radar.ipr
-build-your-own-radar.iml
+*.ipr
+*.iml
 
 ## Plugin-specific files:
 

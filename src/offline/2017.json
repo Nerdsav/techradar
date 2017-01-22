@@ -28,18 +28,39 @@
     "description": "Use Kanban for your daily work."
   },
   {
+    "name": "npm for everything",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "While you believe this is Voodoo, npm has its merits dealing with JavaScript."
+  },
+  {
     "name": "Scrum",
     "ring": "hold",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "The problem isn't Scrum, the problem is that companies don't providing the right environment for scrum. Do yourself a favor and always clarify the objectives."
+    "description": "The problem isn't Scrum, the problem is that companies don't providing the right environment for Scrum. Do yourself a favor and always clarify the objectives and avoid the struggle and meta-discussions."
   },
   {
     "name": "Code Review",
     "ring": "hold",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "Divide and conquer, while you may do code reviews and pull request, the time feels wasted."
+    "description": "Divide and conquer, while you may do code reviews and pull request, the time feels wasted. Spend precious time if you excel in the domain or someone explicitly ask you to."
+  },
+  {
+    "name": "Project Management",
+    "ring": "hold",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "While you have done a lot in past year, don't do it anymore. They have hired people for it. If they steering to the wrong direction just advise or consult."
+  },
+  {
+    "name": "Pomodoro",
+    "ring": "hold",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Working in 25 minutes timebox session doesn't work for you. Especially if you have operations at hand, you can't just simply stop. I'm  working in the wrong environment for the right technique."
   },
   {
     "name": "Kibana",
@@ -49,25 +70,32 @@
     "description": "Kibana is the right tool for Elasticsearch and Monitoring."
   },
   {
-    "name": "",
-    "ring": "trial",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": ""
-  },
-  {
     "name": "MariaDB",
     "ring": "trial",
-    "quadrant": "tools",
+    "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "The better part of MySQL and our preferred db now for Wordpress and Mediawiki."
+  },
+  {
+    "name": "Flyway",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "DB migrations done right. While you might prefer Liquibase, your company uses Flyway. Won't hurt to know only one solution stack in depth, instead of two superficial."
+  },
+  {
+    "name": "Jekyll",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Github's template theme in Ruby seems so easy."
   },
   {
     "name": "Lucidchart",
     "ring": "hold",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": ""
+    "description": "You don't draft, design or make diagrams constantly anymore."
   },
   {
     "name": "Apache Solr",
@@ -75,6 +103,13 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Elasticsearch wins."
+  },
+  {
+    "name": "Eclipse",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "IntelliJ is the better IDE for me. No annoying upgrades and breakers anymore."
   },
   {
     "name": "ELK",
@@ -91,6 +126,13 @@
     "description": "Simple and quick publishing of articles."
   },
   {
+    "name": "Let's Encrypt",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Simple SSL management, secure communication is a must."
+  },
+  {
     "name": "Github",
     "ring": "adopt",
     "quadrant": "platforms",
@@ -100,14 +142,14 @@
   {
     "name": "IntelliJ",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "You need to code more!"
   },
   {
     "name": "Apache Maven",
     "ring": "adopt",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": ""
   },
@@ -121,7 +163,7 @@
   {
     "name": "Checkvist",
     "ring": "trial",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Todo's done right."
   },
@@ -133,18 +175,25 @@
     "description": "Do more with Apache Felix or at least review past works"
   },
   {
+    "name": "CentOS",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "The open source Linux pendant for RHEL. Not by choice, but one linux flavour more doesn't hurt."
+  },
+  {
     "name": "Gradle",
     "ring": "assess",
-    "quadrant": "platforms",
+    "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Gradle is easier to read and manage."
   },
   {
-    "name": "",
-    "ring": "hold",
+    "name": "Raspberry Pi",
+    "ring": "assess",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": ""
+    "description": "The genius micro computers are good for education, but find more a productive embedded approach."
   },
   {
     "name": "Virtual Machines",
@@ -154,6 +203,20 @@
     "description": "Since Docker is in the game don't use virtual machines as deployment or isolation unit. They are still eligible for POCs."
   },
   {
+    "name": "DokuWiki",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Nowadays github pages is better for quick editing in Markdown or Asciidoc. On top we have a syntax less."
+  },
+  {
+    "name": "Oracle DB",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "While every company seems to buy it for no reason or as job guarantee, I see no particular reason or feature for a RDBMS like Oracle, while PostgreSQL and MariaDB offers two open source cluster solutions. The path for Big Data tends to be NoSQL."
+  },
+  {
     "name": "RiskShield",
     "ring": "hold",
     "quadrant": "platforms",
@@ -161,18 +224,32 @@
     "description": "While the software itself is interesting in the architecture key points, you aren't a fraud prevention employee. Only because you understand it, doesn't mean you must do it."
   },
   {
-    "name": "",
+    "name": "Sonarqube",
     "ring": "adopt",
-    "quadrant": "languages&frameworks",
+    "quadrant": "tools",
     "isNew": "FALSE",
-    "description": ""
+    "description": "If you code, Sonar is a must."
   },
   {
-    "name": "Sonar",
+    "name": "Java 8",
     "ring": "adopt",
     "quadrant": "languages&frameworks",
     "isNew": "FALSE",
-    "description": "If you code Sonar is a must."
+    "description": "The default language. Java is the new Cobol."
+  },
+  {
+    "name": "Java EE 7",
+    "ring": "adopt",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "It isn't your daily business, but your companies first choice of framework."
+  },
+  {
+    "name": "Markdown",
+    "ring": "adopt",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "Everyone writes in Markdown. While you love Asciidoc, the team consensus or collaboration requires to use Markdown."
   },
   {
     "name": "Shell",
@@ -182,18 +259,53 @@
     "description": "Bashing is easy."
   },
   {
+    "name": "Asciidoc",
+    "ring": "trial",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "I believe Asciidoc is great for documentations and writing books."
+  },
+  {
     "name": "Python",
     "ring": "trial",
     "quadrant": "languages&frameworks",
     "isNew": "FALSE",
-    "description": ""
+    "description": "If you gonna code for operations, use rather python than shell, you can test it like Java and also have the multiparadigm possibilies at hand."
+  },
+  {
+    "name": "Spring Boot",
+    "ring": "trial",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "Doing microservices faster than Java EE. Micro should be micro and not a full blown stack."
+  },
+  {
+    "name": "Spring Batch",
+    "ring": "adopt",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "Java EE 7 Batch is merely a copy of it. Why don't use the original."
   },
   {
     "name": "Scala",
     "ring": "trial",
     "quadrant": "languages&frameworks",
     "isNew": "FALSE",
-    "description": "This year is a must."
+    "description": "This year is a must. Write Scala apps and decide if it is more appropriate to your style of coding."
+  },
+  {
+    "name": "Spark",
+    "ring": "trial",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "Thinking of web with Java and lightweight, was always a contradiction. Spark may change the game."
+  },
+  {
+    "name": "Log4J 2",
+    "ring": "assess",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "Most promininent open source projects like Elasticsearch favors Log4J 2. Compare the differences and benefits to logback."
   },
   {
     "name": "Akka",
@@ -217,6 +329,13 @@
     "description": "Might be pretty."
   },
   {
+    "name": "Java 9",
+    "ring": "assess",
+    "quadrant": "languages&frameworks",
+    "isNew": "TRUE",
+    "description": "Check out the new Java 9 improvements. Especially the new garbage collector G1 is important for the large heap applications."
+  },
+  {
     "name": "Cobol",
     "ring": "hold",
     "quadrant": "languages&frameworks",
@@ -228,7 +347,168 @@
     "ring": "hold",
     "quadrant": "languages&frameworks",
     "isNew": "FALSE",
-    "description": "Never do SAP again."
+    "description": "Never do SAP again. You can earn a bunch of money, but will sell your soul and lose your mental health. The best businesses runs SAP. Best joke I have ever heard. Having tablenames like <code>KNA1</code> is really attractive."
+  },
+  {
+    "name": "Java EE 6",
+    "ring": "hold",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "While Java EE 7 might not have bring great changes, just don't do new projects with Java EE 6."
+  },
+  {
+    "name": "JMH",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Microbenchmarks within Java. Extend the palette of your benchmarking know how."
+  },
+  {
+    "name": "MapStruct",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Mapping without any pain. Uses the annotation processor."
+  },
+  {
+    "name": "Spring REST docs",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Documentation of RESTful WebServices done right. Supports HATEOAS."
+  },
+  {
+    "name": "Lombok",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Lombok does basic things right. Even if you think your IDE is smart, having Lombok allows you to focus on your real code, by eliminating verbose getters, setters, toString, etc. methods."
+  },
+  {
+    "name": "Apache Kafka",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Apache Kafka is an open-source stream processing platform developed by the Apache Software Foundation written in Scala and Java. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds. Transaction processing or data ingestion for Elasticsearch is a major field of interest."
+  },
+  {
+    "name": "Docker",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Docker is an open-source project that automates the deployment of applications inside software containers."
+  },
+  {
+    "name": "DevOps",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "You have done DevOps in the past six years. Alter Wein in neuen Schläuchen."
+  },
+  {
+    "name": "Hackathon",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "I don't code enough. I could blame my employer, but it might be an opportunity to do more private hack sessions. Operations Research and fun algorithms I always wanted to do. Just do it."
+  },
+  {
+    "name": "Design Patterns",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "You know a bunch of stuff, but communicating or displaying the problem of some solutions could be better laid out. Intensify regardless of your coding situation or opportunities."
+  },
+  {
+    "name": "Respectful Communication",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "One simple way to communicate more effectively is to treat the person you are addressing respectfully - even if you do not, really, respect him or her. Exhibiting disrespect is almost never helpful, as it immediately places the listener in an adversarial, and probably hostile frame of mind, and encourages them to disregard or dispute anything that is said. You deal with a lot of people with different mindsets and backgrounds. Train to be a better version of yourself every day. As you grow older, your boundaries also shift. You can train and do it!"
+  },
+  {
+    "name": "Intercultural Awareness",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Working in Switzerland compared to Germany is a difference! Most things are team consensus. Even if you don't agree or know it is wrong, don't let it influence you. The most important thing in Switzerland is patience. While you may have work well in Germany and the US, the workings mechanims may not apply to your current job. Whether you can take it or not decides your career goal and country/destination."
+  },
+  {
+    "name": "Apache Hadoop",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Apache Hadoop is an open-source software framework used for distributed storage and processing of very large data sets. It consists of computer clusters built from commodity hardware. It might not be possible in your current job, due to the lack of strategy and implementation. Might be important if it comes to Big Data and searching it with Elasticsearch and Kibana."
+  },
+  {
+    "name": "Ansible",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Ansible is an open-source automation engine that automates cloud provisioning, configuration management, and application deployment. It is already a big help for management of your Raspberry Pi cluster. Still you know only the tip of the iceberg."
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "We need a cluster container manager. Kubernetes should incorporate with etcd. Kubernetes does everything right, but potential alternatives are OpenShift and Docker Swarm."
+  },
+  {
+    "name": "etcd",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Distributed computing needs distributed reliable key-value store for the most critical data of a distributed system."
+  },
+  {
+    "name": "Google Charts",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "While you have use a lot of it in your presentations, there might be a niche to use them more often. Kibana does a splendid job, but is missing sometimes visualiziations that Google Charts just does right."
+  },
+  {
+    "name": "Jenkins",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Jenkins is not the right tool for you. As CI in your company it may be ok, but coding your Jenkinsfile just feels wrong, while it may give you a better chance to describe your build chain."
+  },
+  {
+    "name": "Travis CI",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "If you code more often just use Travis CI. Just plain simple and in the cloud. Might getting as complex as Jenkins, but if it really comes to this, you were finally productive."
+  },
+  {
+    "name": "Gradle",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Gradle is an open source build automation system that builds upon the concepts of Apache Ant and Apache Maven and introduces a Groovy-based domain-specific language instead of the XML form used by Apache Maven of declaring the project configuration."
+  },
+  {
+    "name": "JPA",
+    "ring": "hold",
+    "quadrant": "languages&frameworks",
+    "isNew": "FALSE",
+    "description": "While having simple applications JPA does its job, co-workers experience more obstacles than abstraction. If it comes to efficient processing of high volume transactions or database vendor specifics, JPA is not the right choice and you end up writing SQLs again. Jooq might be right choice for that."
+  },
+  {
+    "name": "Slick",
+    "ring": "assess",
+    "quadrant": "languages&frameworks",
+    "isNew": "TRUE",
+    "description": "Slick is a modern database query and access library for Scala. It allows you to work with stored data almost as if you were using Scala collections while at the same time giving you full control over when a database access happens and which data is transferred. You can write your database queries in Scala instead of SQL, thus profiting from the static checking, compile-time safety and compositionality of Scala."
+  },
+  {
+    "name": "Liquibase",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Liquibase is an open source database-independent library for tracking, managing and applying database schema changes."
   }
 ]
 
